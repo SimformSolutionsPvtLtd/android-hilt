@@ -37,7 +37,6 @@ class AppTest {
     @After
     fun tearDown() {
         // Remove logs after the test finishes
-        ServiceLocator(getInstrumentation().targetContext).loggerLocalDataSource.removeLogs()
     }
 
     @Test
